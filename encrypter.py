@@ -2,7 +2,7 @@ import os
 import pyaes
 
 # Chave de criptografia segura (recomenda-se usar variáveis de ambiente)
-key = os.getenv("ENCRYPTION_KEY", "DesafioDio@1223").encode()
+key = os.getenv("ENCRYPTION_KEY", "DesafioDio@1223a").encode()
 
 # Nome do arquivo a ser criptografado
 file_name = "teste.txt"
