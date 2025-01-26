@@ -2,7 +2,7 @@ import os
 import pyaes
 
 # Chave de descriptografia (mesma chave usada na criptografia)
-key = os.getenv("ENCRYPTION_KEY", "DesafioDio@1223").encode()
+key = os.getenv("ENCRYPTION_KEY", "DesafioDio@1223a").encode()
 
 # Nome do arquivo criptografado
 encrypted_file_name = "teste.txt.ransomwaretroll"
